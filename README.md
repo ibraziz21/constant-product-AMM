@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Constant Product Automated Market Maker
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+this project has 2 test tokens, to demonstrate an AMM (constant product)
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+Should be able to:
+1. Swap between the 2 tokens
+2. Add liquidity
+3. Remove liquidity
 ```
