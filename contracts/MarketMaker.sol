@@ -23,7 +23,9 @@ contract MarketMaker is Ownable {
 
     constructor(address _tokenA, address _tokenB) {
         tokenA = IERC20(_tokenA);
+        tokenA.approve(address(this),100000);
         tokenB = IERC20(_tokenB);
+        tokenB.approve(address(this), 100000);
     }
 
     //function to mint shares
